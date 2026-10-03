@@ -1,0 +1,21 @@
+{
+  "points": [
+    [
+      0.25,
+      0.46
+    ],
+    [
+      0.74,
+      0.46
+    ],
+    [
+      0.86,
+      1.0
+    ],
+    [
+      0.13,
+      1.0
+    ]
+  ],
+  "description": "Active court and immediate apron for the selected rear camera. Excludes side chair officials and back line judges. Specific to this video interval; normalized floor-anchor polygon, not a player-count cap."
+}

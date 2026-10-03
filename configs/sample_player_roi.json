@@ -1,0 +1,21 @@
+{
+  "points": [
+    [
+      0.31,
+      0.27
+    ],
+    [
+      0.69,
+      0.27
+    ],
+    [
+      0.89,
+      0.99
+    ],
+    [
+      0.11,
+      0.99
+    ]
+  ],
+  "description": "Sample-specific active court and immediate apron region. Filters spectators and officials; not a homography or universal camera calibration. Edit for other footage."
+}

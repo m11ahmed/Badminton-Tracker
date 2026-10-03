@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/qaz812345/TrackNetV3",
+  "upstream_commit": "6eda442ada1740573f200f836d93edc9a541ee86",
+  "checkpoint_url": "https://drive.google.com/file/d/1CfzE87a0f6LhBp0kniSl1-89zaLCZ8cA/view",
+  "archive_sha256": "8de68d34ea2457e368e22947f1309143d60a6a7f9ddccd31cd526d4c4571bcc4",
+  "filename": "TrackNet_best.pt",
+  "sha256": "df867641a02712b021f04548ff4b1208ddfdb47f629ab2094ceb978667e83b1a",
+  "bytes": 136190877,
+  "module_used": "TrackNet only; no InpaintNet rectification"
+}

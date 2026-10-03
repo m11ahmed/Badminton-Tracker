@@ -1,0 +1,21 @@
+{
+  "points": [
+    [
+      0.02,
+      0.06
+    ],
+    [
+      0.98,
+      0.06
+    ],
+    [
+      0.98,
+      0.96
+    ],
+    [
+      0.02,
+      0.96
+    ]
+  ],
+  "description": "Research top-down doubles animation only. Selection area includes full relevant court; this is not camera calibration."
+}

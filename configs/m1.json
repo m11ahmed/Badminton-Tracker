@@ -1,0 +1,11 @@
+{
+  "device": "auto",
+  "batch_size": 1,
+  "threads": 2,
+  "max_frames": null,
+  "confidence_threshold": 0.5,
+  "heatmap_threshold": 0.5,
+  "background_samples": 32,
+  "max_gap_frames": 2,
+  "trail_frames": 12
+}

@@ -1,0 +1,10 @@
+{
+  "filename": "yolo11n-pose.pt",
+  "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n-pose.pt",
+  "release": "v8.3.0",
+  "sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+  "bytes": 6255593,
+  "ultralytics_version": "8.3.228",
+  "keypoint_layout": "COCO17",
+  "license_reference": "https://github.com/ultralytics/ultralytics/blob/v8.3.228/LICENSE"
+}

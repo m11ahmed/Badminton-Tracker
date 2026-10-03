@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "corners_px": [
+    [
+      453.3234675398886,
+      261.99098504200595
+    ],
+    [
+      831.6892520189004,
+      264.02520960638253
+    ],
+    [
+      985.5752911316303,
+      652.4042251287954
+    ],
+    [
+      296.6847477358564,
+      652.7966759775588
+    ]
+  ],
+  "corner_order": [
+    "far_left",
+    "far_right",
+    "near_right",
+    "near_left"
+  ],
+  "court_dimensions_m": [
+    6.1,
+    13.4
+  ],
+  "singles_width_m": 5.18,
+  "method": "auto_proposal",
+  "reference_frame": 0,
+  "metadata": {
+    "input_video": "data/sample.mp4",
+    "input_video_sha256": "b45178f29dcff7cd12f5a61f364b55a058ada532dd6110cd59d85ed9d64a4f24",
+    "reference_timestamp_s": 0.0,
+    "video_fps": 30.0,
+    "timing_policy": "source presentation timestamps relative to first frame; rate fallback only when PTS is missing",
+    "fixed_camera_assumption": true,
+    "automatic_candidate": {
+      "corners_px": [
+        [
+          453.3234675398886,
+          261.99098504200595
+        ],
+        [
+          831.6892520189004,
+          264.02520960638253
+        ],
+        [
+          985.5752911316303,
+          652.4042251287954
+        ],
+        [
+          296.6847477358564,
+          652.7966759775588
+        ]
+      ],
+      "score": 0.945933014354067,
+      "evidence": {
+        "green_component_area_fraction": 0.3271842447916667,
+        "green_component_bbox_px": [
+          202,
+          224,
+          876,
+          496
+        ],
+        "white_line_support": {
+          "far_baseline": 1.0,
+          "right_sideline": 0.9952153110047847,
+          "near_baseline": 1.0,
+          "left_sideline": 1.0
+        },
+        "hough_segment_count": 56,
+        "horizontal_line_group_count": 6,
+        "score_semantics": "uncalibrated geometric line support; not a probability of correct court geometry",
+        "numerical_diagnostics": {
+          "solver": "normalized direct linear transform with SVD",
+          "normalized_dlt_condition": 5.775165111066734,
+          "normalized_homography_condition": 3.354648957653575,
+          "max_corner_fit_error_m": 9.93920940662861e-15,
+          "max_roundtrip_error_px": 3.2155493553843715e-13,
+          "physical_accuracy_status": "not measured; an exact fit of four supplied corners is not independent calibration validation"
+        }
+      },
+      "warnings": [
+        "Automatic geometry is an unconfirmed proposal. Inspect outer doubles line intersections and independent service lines.",
+        "This heuristic assumes one dominant green court, visible white boundaries and a fixed rear camera; other floors or views require manual calibration.",
+        "Four fitted corners alone do not establish physical distance accuracy."
+      ]
+    },
+    "confirmation_status": "unconfirmed"
+  },
+  "homography": [
+    [
+      0.0346404650993111,
+      0.013884235138907304,
+      -19.34088019661136
+    ],
+    [
+      -0.0007270548044902667,
+      0.13523219917683932,
+      -35.100026066673834
+    ],
+    [
+      -5.741560115481364e-05,
+      0.004548930514247721,
+      1.0
+    ]
+  ],
+  "inverse_homography": [
+    [
+      62.816794570450796,
+      -21.69823546955898,
+      453.3234675398886
+    ],
+    [
+      0.5841484663418216,
+      7.142246534553953,
+      261.9909850420061
+    ],
+    [
+      0.0009494132394875454,
+      -0.033735400434795955,
+      1.0
+    ]
+  ],
+  "diagnostics": {
+    "solver": "normalized direct linear transform with SVD",
+    "normalized_dlt_condition": 5.775165111066734,
+    "normalized_homography_condition": 3.354648957653575,
+    "max_corner_fit_error_m": 9.93920940662861e-15,
+    "max_roundtrip_error_px": 3.2155493553843715e-13,
+    "physical_accuracy_status": "not measured; an exact fit of four supplied corners is not independent calibration validation"
+  },
+  "coordinate_convention": "origin at far-left outer doubles corner; x across court; y towards near baseline; meters"
+}

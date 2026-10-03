@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "corners_px": [
+    [
+      650.0,
+      600.0
+    ],
+    [
+      1250.0,
+      600.0
+    ],
+    [
+      1392.0,
+      976.0
+    ],
+    [
+      514.0,
+      982.0
+    ]
+  ],
+  "corner_order": [
+    "far_left",
+    "far_right",
+    "near_right",
+    "near_left"
+  ],
+  "court_dimensions_m": [
+    6.1,
+    13.4
+  ],
+  "singles_width_m": 5.18,
+  "method": "manual",
+  "reference_frame": 0,
+  "metadata": {
+    "input_video": "data/lee_axelsen_rally.mp4",
+    "input_video_sha256": "780548c4661fc56c5b9b3f4bea36cbcedc7e1be5345127d7c663f95c64785dc2",
+    "selection_interface": "Streamlit numeric corner entry",
+    "fixed_camera_assumption": true,
+    "confirmation_status": "manually supplied corners; inspect court lines"
+  },
+  "homography": [
+    [
+      0.035688575901165594,
+      0.012705880425545888,
+      -30.82110259108517
+    ],
+    [
+      6.363285184543684e-17,
+      0.18262193948647526,
+      -109.57316369188523
+    ],
+    [
+      -6.363559842860562e-05,
+      0.0043164937100320985,
+      1.0
+    ]
+  ],
+  "inverse_homography": [
+    [
+      100.5895061758969,
+      -22.362040182795017,
+      650.0000000000001
+    ],
+    [
+      1.0698482103320923,
+      5.1748628902138645,
+      600.0000000000001
+    ],
+    [
+      0.0017830803505535446,
+      -0.02376028492500335,
+      1.0
+    ]
+  ],
+  "diagnostics": {
+    "solver": "normalized direct linear transform with SVD",
+    "normalized_dlt_condition": 6.809145634401567,
+    "normalized_homography_condition": 4.427476319181324,
+    "max_corner_fit_error_m": 8.071756041672592e-15,
+    "max_roundtrip_error_px": 4.547473508864641e-13,
+    "physical_accuracy_status": "not measured; an exact fit of four supplied corners is not independent calibration validation"
+  },
+  "coordinate_convention": "origin at far-left outer doubles corner; x across court; y towards near baseline; meters"
+}

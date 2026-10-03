@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "corners_px": [
+    [
+      454.0,
+      263.0
+    ],
+    [
+      827.0,
+      264.0
+    ],
+    [
+      985.0,
+      653.0
+    ],
+    [
+      297.0,
+      654.0
+    ]
+  ],
+  "corner_order": [
+    "far_left",
+    "far_right",
+    "near_right",
+    "near_left"
+  ],
+  "court_dimensions_m": [
+    6.1,
+    13.4
+  ],
+  "singles_width_m": 5.18,
+  "method": "manual",
+  "reference_frame": 0,
+  "metadata": {
+    "input_video": "data/sample.mp4",
+    "input_video_sha256": "b45178f29dcff7cd12f5a61f364b55a058ada532dd6110cd59d85ed9d64a4f24",
+    "reference_timestamp_s": 0.0,
+    "video_fps": 30.0,
+    "timing_policy": "source presentation timestamps relative to first frame; rate fallback only when PTS is missing",
+    "fixed_camera_assumption": true,
+    "selection_interface": "explicit pixel coordinates",
+    "confirmation_status": "manually supplied corners; inspect the independent line preview"
+  },
+  "homography": [
+    [
+      0.03706271377553367,
+      0.014881959239792313,
+      -20.74042733415767
+    ],
+    [
+      -0.00038624406331436194,
+      0.14406903561625403,
+      -37.71480156233008
+    ],
+    [
+      -3.7296245799640505e-05,
+      0.004922641932873374,
+      1.0
+    ]
+  ],
+  "inverse_homography": [
+    [
+      61.6846923727241,
+      -21.88442854252583,
+      454.00000000000017
+    ],
+    [
+      0.3354071792247449,
+      6.788939651419856,
+      262.9999999999999
+    ],
+    [
+      0.0006495180037698243,
+      -0.03423572603393285,
+      1.0
+    ]
+  ],
+  "diagnostics": {
+    "solver": "normalized direct linear transform with SVD",
+    "normalized_dlt_condition": 5.768977274643996,
+    "normalized_homography_condition": 3.3455334093723437,
+    "max_corner_fit_error_m": 4.7360869503030415e-15,
+    "max_roundtrip_error_px": 3.457650183405701e-13,
+    "physical_accuracy_status": "not measured; an exact fit of four supplied corners is not independent calibration validation"
+  },
+  "coordinate_convention": "origin at far-left outer doubles corner; x across court; y towards near baseline; meters"
+}

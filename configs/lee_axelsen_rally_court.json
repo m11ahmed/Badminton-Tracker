@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "corners_px": [
+    [
+      600.0,
+      602.0
+    ],
+    [
+      1295.0,
+      600.0
+    ],
+    [
+      1487.0,
+      1020.0
+    ],
+    [
+      406.0,
+      1024.0
+    ]
+  ],
+  "corner_order": [
+    "far_left",
+    "far_right",
+    "near_right",
+    "near_left"
+  ],
+  "court_dimensions_m": [
+    6.1,
+    13.4
+  ],
+  "singles_width_m": 5.18,
+  "method": "manual",
+  "reference_frame": 0,
+  "metadata": {
+    "input_video": "data/lee_axelsen_rally.mp4",
+    "input_video_sha256": "780548c4661fc56c5b9b3f4bea36cbcedc7e1be5345127d7c663f95c64785dc2",
+    "reference_timestamp_s": 0.0,
+    "video_fps": 50.0,
+    "fixed_camera_assumption": true,
+    "selection_interface": "Explicit pixel coordinates from native resolution source frame",
+    "confirmation_status": "Manually supplied corners and independent service lines visually inspected",
+    "source_highlights_interval_s": [
+      82.12,
+      92.84
+    ]
+  },
+  "homography": [
+    [
+      0.042759222690777914,
+      0.0196570834170875,
+      -37.489097831553416
+    ],
+    [
+      0.0006936110698238486,
+      0.24102984676380232,
+      -145.51613439370334
+    ],
+    [
+      8.970191346335285e-06,
+      0.006422810266862329,
+      1.0
+    ]
+  ],
+  "inverse_homography": [
+    [
+      114.22290868871075,
+      -25.303818121456363,
+      599.9999999999998
+    ],
+    [
+      -0.1942090258015009,
+      4.187032068345044,
+      602.0000000000002
+    ],
+    [
+      0.0002227663777624925,
+      -0.02666553246590604,
+      1.0
+    ]
+  ],
+  "diagnostics": {
+    "solver": "normalized direct linear transform with SVD",
+    "normalized_dlt_condition": 7.278993228492034,
+    "normalized_homography_condition": 4.81749299033729,
+    "max_corner_fit_error_m": 1.1983416469749398e-14,
+    "max_roundtrip_error_px": 3.2155493553843715e-13,
+    "physical_accuracy_status": "not measured; an exact fit of four supplied corners is not independent calibration validation"
+  },
+  "coordinate_convention": "origin at far-left outer doubles corner; x across court; y towards near baseline; meters"
+}
