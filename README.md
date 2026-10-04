@@ -64,7 +64,7 @@ M5 writes an annotated video, standalone map video, per frame shuttle and player
 
 Read [the insight definitions](docs/INSIGHTS.md) for metric meanings and quality flags. Follow [the M5 guide](docs/M5_RUNNING.md) for a full movement analysis, [the M3 guide](docs/M3_RUNNING.md) for court calibration, and [the demo guide](docs/DEMO.md) for review controls. The [final verification](docs/FINAL_VERIFICATION.md) documents what was tested and where results may be unreliable. Earlier stage evidence is in [M1 verification](docs/VERIFICATION.md), [M2 verification](docs/M2_VERIFICATION.md) and [M3 verification](docs/M3_VERIFICATION.md).
 
-The Python test suite is in `tests`. Model versions and source checksums are listed in `models/manifest.json`, `models/pose_manifest.json` and `vendor/tracknetv3/provenance.json`. Check upstream terms before redistributing downloaded checkpoints or sample media. No project license is included, so public visibility does not grant permission to reuse this project code.
+The Python test suite is in `tests`. Model versions and source checksums are listed in `models/manifest.json`, `models/pose_manifest.json` and `vendor/tracknetv3/provenance.json`. Check upstream terms before redistributing downloaded checkpoints or sample media. Released under the MIT License. See LICENSE. Downloaded model weights and sample media remain under their upstream terms.
 
 ## Local storage
 
